@@ -2,6 +2,9 @@
   text-align: center;
   font-size: 70px;
 }
+*{
+box-sizing: border-box;
+}
 .s1{
   background-color: #999999;
 border: 2px solid black;
@@ -69,9 +72,6 @@ margin-top: 10%;
   margin-top: 10%;
    margin-left: 10px;
 }
-*{
-box-sizing: border-box;
-}
 }
 /*phone version*/
 @media(max-width:767px){
@@ -86,9 +86,6 @@ box-sizing: border-box;
 .s3{
   margin-left: 10%;
   margin-top: 20%
-}
-*{
-box-sizing: border-box;
 }
 }
 /*tablet version*/
@@ -108,8 +105,5 @@ box-sizing: border-box;
   margin-left: 40px;
   margin-top: 20%;
   
-}
-*{
-box-sizing: border-box;
 }
 }
