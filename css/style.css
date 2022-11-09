@@ -20,22 +20,16 @@ box-sizing: border-box;
 .s1{
   background-color: #999999;
 border: 2px solid black;
-float: left;
-width: 300px;
      PADDING: 20px;
 }
 .s2{
   background-color: #999999;
 border: 2px solid black;
-float: left;
-width: 300px;
      PADDING: 20px;
 }
 .s3{
   background-color: #999999;
 border: 2px solid black;
-float: left;
-width: 300px;
      PADDING: 20px;
 }
 .s1 p {
@@ -74,35 +68,24 @@ width: 300px;
 /* desktop version*/
 @media(min-width:992px){
 .s1{
-    margin-top: 10%;
+  margin-top: 10%;
+   margin-left: 10px;
+   margin-RIGHT: 10px;
 }
 .s2{
 margin-top: 10%;
    margin-left: 10px;
+    margin-RIGHT: 10px;
+   
 }
 .s3{
   margin-top: 10%;
    margin-left: 10px;
+    margin-RIGHT: 10px;
 }
 }
 /*phone version*/
 @media(max-width:767px){
-  .mobile-nav-toggle {
-  color: #6c757d;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  z-index: 9998;
-  border: 0;
-  background: none;
-  font-size: 40px;
-  transition: all 0.4s;
-  outline: none !important;
-  line-height: 0;
-  cursor: pointer;
-  border-radius: 50px;
-  padding: 5px;
-}
 .s1{
   margin-left: 10%;
   margin-top: 20%;
@@ -118,22 +101,6 @@ margin-top: 10%;
 }
 /*tablet version*/
 @media(min-width:768px) and (max-width:991px){
-  .mobile-nav-toggle {
-  color: #6c757d;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  z-index: 9998;
-  border: 0;
-  background: none;
-  font-size: 40px;
-  transition: all 0.4s;
-  outline: none !important;
-  line-height: 0;
-  cursor: pointer;
-  border-radius: 50px;
-  padding: 5px;
-}
 .s1{
   margin-top: 20%;
   margin-left: 40px;
@@ -151,3 +118,4 @@ margin-top: 10%;
   
 }
 }
+
