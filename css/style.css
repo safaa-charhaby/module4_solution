@@ -85,22 +85,43 @@ margin-top: 10%;
 }
 }
 /*phone version*/
+.navbar {
+  font-size: 25px;
+  background: grey;
+  padding-top: 40px;
+  padding-bottom: 0.5px;
+  padding-left: 20px;
+  margin-top: -50px;
+  margin-right: -7px;
+  margin-left: -10px;
+  
+  
+}
 @media(max-width:767px){
 .s1{
-  margin-left: 10%;
   margin-top: 20%;
 }
 .s2{
-  margin-left: 10%;
   margin-top:20%;
 }
 .s3{
-  margin-left: 10%;
   margin-top: 20%
 }
 }
 /*tablet version*/
 @media(min-width:768px) and (max-width:991px){
+  .navbar {
+  font-size: 30px;
+  background: grey;
+  padding-top: 40px;
+  padding-bottom: 0.5px;
+  padding-left: 50px;
+  margin-top: -50px;
+  margin-right: -7px;
+  margin-left: -10px;
+  
+  
+}
 .s1{
   margin-top: 20%;
   margin-left: 40px;
